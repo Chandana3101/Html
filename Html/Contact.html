@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    <header>
+    <h1>Contact Us</h1>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#About">About LTS<abbr title="The Little Taco Shop"></abbr></a></li>
+            <li><a href="/#menu">Our Menu</a></li>
+            <li><a href="Hours.html">Stor Hours</a></li>
+        </ul>
+    </nav>
+        <figure>
+            <img src="/Html/Tacos_closeup.jpg" height="200" width="300" alt="Little taco Shop tacos" loading="eager">
+            <figcaption>Tacos ready to eat </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <h2>Our Conatct Form</h2>
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="Write a message" required rows="10"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+    <section>
+        <h2>Our Location</h2>
+        <address>
+            #222 Taco Shop Yelahanka, <br>
+            Bangalore City, Mobile : 1234567890
+            <br><br>
+            Phone: <a href="tel:+5555555555">222-222-2222</a>
+        </address>
+    </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+
+</body>
+</html>
